@@ -16,7 +16,7 @@ class User {
         $db = new mysqli('localhost', 'root', '', 'loginForm');
         $preparedQuery = $db->prepare($query); 
         $preparedQuery->bind_param('ssss', $this->login, $passwordHash, 
-                                            $this->firstName, $this->lastName);
+                                            $this->firstname, $this->lastname);
         $preparedQuery->execute();
     }
 }
