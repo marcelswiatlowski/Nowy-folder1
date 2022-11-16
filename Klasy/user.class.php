@@ -45,6 +45,5 @@ class User {
             return false;
         }
     }
-    public function 
 }
 ?>
