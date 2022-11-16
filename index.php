@@ -1,5 +1,5 @@
 <?php
-require_one('class/user.class.php');
+require_one('Klasy/user.class.php');
 
 $user = new User('jkowalski' , 'tajneHasło');
 
